@@ -21,6 +21,7 @@ export default StatesApp = () => {
     fontSize: 14,
     fontWeight: 'bold',
     backgroundColor: '#9FA8DF',}}>{section.title}</Text>} // set your custom color
+    keyExtractor={(item,index) =>index}
     />
    </View>
   );// end of return statement
